@@ -84,7 +84,7 @@ spring = AccessoryData("Spring", 9,                    1, 1, 2, 1, 2, 2, 1, 0, 1
 seashell = AccessoryData("Seashell", 9,                2, 0, 0, 1, 0, 1, 1, 2, 1, 2, 1, 2, False)
 humming_note = AccessoryData("Humming Note", 9,        1, 1, 2, 2, 2, 2, 2, 1, 1, 0, 1, 1, False)
 shiny_powder = AccessoryData("Shiny Powder", 9,        2, 1, 2, 2, 2, 2, 2, 1, 0, 1, 0, 1, False)
-glitter_powder = AccessoryData("Glitter Powder", 9,    2, 1, 2, 2, 2, 2, 2, 1, 0, 1, 0, 1, False)
+glitter_powder = AccessoryData("Glitter Powder", 9,    2, 1, 2, 2, 2, 2, 2, 1, 0, 1, 0, 1)
 # 10
 red_flower = AccessoryData("Red Flower", 10,           1, 2, 0, 1, 1, 1, 1, 2, 1, 2, 1, 1)
 pink_flower = AccessoryData("Pink Flower", 10,         1, 2, 0, 1, 1, 1, 1, 2, 1, 2, 1, 1)
@@ -351,7 +351,7 @@ shiny_powder_loc = LocationData("shiny powder",
                                 f"{massage}",
                                 f"{follower} (Goldenrod Radio Tower, Battle Frontier, Mt. Moon)")
 glitter_powder_loc = LocationData("glitter powder",
-                                  f"{massage}",
+                                  f"Gift at Hearthome City Contest Hall, {massage}",
                                   f"{follower} (Battle Frontier, Power Plant)")
 red_flower_loc = LocationData("red flower",
                               f"{floaroma} (Trade 10 Razz Berries)",
@@ -504,30 +504,30 @@ cube_stage_loc = LocationData("cube stage",
                               "Reward for winning a Master Rank Smart Contest for the first time",
                               f"{raffle}")
 turtwig_mask_loc = LocationData("turtwig mask",
-                                "Jubilife TV 2F (If the player started with Turtwig), "
-                                "Veilstone Department Store 1F (If the player started with Chimchar), "
-                                "Pastoria City (If the player started with Piplup)",
-                                "Celadon Department Store 2F")
+                                "Gift at Jubilife TV 2F (If the player started with Turtwig), "
+                                "Gift at Veilstone Department Store 1F (If the player started with Chimchar), "
+                                "Gift at Pastoria City (If the player started with Piplup)",
+                                "Gift at Celadon Department Store 2F")
 chimchar_mask_loc = LocationData("chimchar mask",
-                                 "Jubilife TV 2F (If the player started with Chimchar), "
-                                 "Veilstone Department Store 1F (If the player started with Piplup), "
-                                 "Pastoria City (If the player started with Turtwig)",
-                                 "Celadon Department Store 2F")
+                                 "Gift at Jubilife TV 2F (If the player started with Chimchar), "
+                                 "Gift at Veilstone Department Store 1F (If the player started with Piplup), "
+                                 "Gift at Pastoria City (If the player started with Turtwig)",
+                                 "Gift at Celadon Department Store 2F")
 piplup_mask_loc = LocationData("piplup mask",
-                               "Jubilife TV 2F (If the player started with Piplup), "
-                               "Veilstone Department Store 1F (If the player started with Turtwig), "
-                               "Pastoria City (If the player started with Chimchar)",
-                               "Celadon Department Store 2F")
+                               "Gift at Jubilife TV 2F (If the player started with Piplup), "
+                               "Gift at Veilstone Department Store 1F (If the player started with Turtwig), "
+                               "Gift at Pastoria City (If the player started with Chimchar)",
+                               "Gift at Celadon Department Store 2F")
 big_tree_loc = LocationData("big tree",
-                            "Eterna Forest Outskirts",
+                            "Gift at Eterna Forest Outskirts",
                             f"{raffle}")
 flag_loc = LocationData("flag",
-                        "Cycling Road South Gate",
+                        "Gift at Cycling Road South Gate",
                         f"{raffle}")
 crown_loc = LocationData("crown",
-                         "Pal Park (FireRed in GBA slot)")
+                         "Gift at Pal Park (FireRed in GBA slot)")
 tiara_loc = LocationData("tiara",
-                         "Pal Park (LeafGreen in GBA slot)")
+                         "Gift at Pal Park (LeafGreen in GBA slot)")
 comet_loc = LocationData("comet",
                          "Unobtainable")
 accessories = [
